@@ -1,0 +1,181 @@
+body{
+	background: ;
+	overflow-x: none;
+	margin: 0;
+	width: 100%;
+}
+table{
+	width: 80%;
+	padding-left: 50px;
+	border-collapse: collapse;
+	border-style: solid #dddd;
+}
+th {
+  height: 70px;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+#header{
+background: white;
+display: block;
+height: 60px;
+display: inline-flex;
+z-index: 9999;
+width: 100%;
+position: fixed;
+overflow: hidden;
+
+box-shadow: 0px 1px 1px 1px white;
+}
+#header li{
+	display: inline-block;
+	padding-left: 50px;
+	text-decoration: none;
+	margin: auto;
+	
+}
+#header li a{
+	
+	color: black;
+	font-size: 1.4em;
+	text-decoration: none;
+	padding: 30px;
+}
+li a:hover{
+	background: silver;
+}
+span{
+	
+	color: goldenrod;
+	margin-top: 8px;
+	padding-left: 150px;
+	font-size: 2.5em;
+	font-style: italic;
+	font-family: fantasy;
+
+}
+#logo img {
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 50px;
+	width: 50px;
+	height: 40px;
+	
+}
+#container{
+	background: silver;
+	
+}
+#hero{
+	height: 300px;
+   width: 100%;
+  
+   
+}
+h1#hero-text{
+	margin-top: 0px;
+	padding-top: 100px;
+	padding-left: 550px;
+	color: whitesmoke;
+	font-style: italic;
+}
+ h4#hero-text{
+	padding-top: 20px;
+	padding-left: 490px;
+	color: orange;
+	font-style: italic;
+	font-size: 1.2em;
+	font-style: bold;
+	
+	
+}
+#section{
+	width: 400px;
+	height: 250px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px;
+	box-shadow: 0.1px 0.05px 1px 0.01px white;
+	bottom: 0;
+}
+#section h3{
+	margin-top: 30px;
+	color: blue;
+	font-family: sans-serif;
+	text-align: center;
+}
+h1#services{
+	margin-left: 550px;
+
+}
+.content{
+	padding: 30px;
+	margin: auto;
+}
+h2{
+color: goldenrod;
+padding: 0;
+}
+p{
+	
+	padding-right: 40px;
+	padding-left: 90px;
+	color: black;
+	font-size: 20px;
+	text-align: left;
+}
+h1{
+	color: blue;
+	margin-left: 20px;
+}
+h6{
+	margin-top: -5px;
+	margin-left: 20px;
+}
+form{
+	margin-left: 50px;
+	color: black;
+}
+
+#footer{
+	background: #01796f;
+	color: white;
+	height: 80px;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 25px;
+	bottom: 0px !important;
+}
+#login-form{
+	margin-top:80px;
+	margin-left:400px;
+	width:450px;
+	height: 350px;
+
+	border:solid 1px orange;
+	border-radius: 10px;
+}
+#login-form input{
+	padding:5px;
+	margin:5px;
+	vertical-align: auto;
+	border:solid 1px;
+}
+#login-form input{
+width:250px;
+}
+.reg-form{
+	
+	margin-left:400px;
+	width: 85%;
+	vertical-align: auto;
+}
+.reg-form input{
+  padding:5px;
+	margin:5px;
+	vertical-align: auto;
+	border:solid 1px;
+}
